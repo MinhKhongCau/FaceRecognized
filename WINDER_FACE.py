@@ -17,11 +17,11 @@ def load_data():
             file_name = lines[i].strip()
             num_faces = int(lines[i+1].strip())
             img = cv2.imread(os.path.join(data_dir, file_name))
-            for j in range(num_faces):
-                x, y, w, h = map(int, lines[i+2+j].strip().split()[:4])
-                images.append(cv2.resize(img, (128, 128)))
-                labels.append([x, y, w, h])
-            i += num_faces + 2
+            # for j in range(num_faces):
+            #     x, y, w, h = map(int, lines[i+2+j].strip().split()[:4])
+            #     images.append(cv2.resize(img, (128, 128)))
+            #     labels.append([x, y, w, h])
+            # i += num_faces + 2
     return np.array(images) / 255.0, np.array(labels)
 
 X, y = load_data()
