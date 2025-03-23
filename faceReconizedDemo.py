@@ -27,6 +27,8 @@ for i in range(num_faces):
     x, y, w, h = map(int, lines[idx + 2 + i].strip().split()[:4])
     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)  # Vẽ khung xanh
 
+print(x, " ", y, " ", w, " ", h)
+print(image.shape)
 
 # Hiển thị ảnh
 cv2.imshow("WIDER FACE Sample", image)
