@@ -14,9 +14,7 @@ couple.jpg
 
 WIDER_train.rar
 
-x_test_1_5.npy
-y_test_1_5.npy
-x_dataset_1_5.npy
-y_dataset_1_5.npy
-x_dataset.npy
-y_dataset.npy
+x_train.npy
+y_train.npy
+x_val.npy
+y_val.npy
