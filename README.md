@@ -22,10 +22,13 @@ Create a virtual environment:
 
 ```
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate # On Windows
+
+source venv/bin/activate activate  # On Linux 
 ```
 
 Install library
+- Requirement: use python 3.7/ 3.8/ 3.9
 ```
 pip install -r requirement.txt
 ```

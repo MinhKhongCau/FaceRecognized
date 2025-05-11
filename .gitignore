@@ -18,3 +18,5 @@ x_train.npy
 y_train.npy
 x_val.npy
 y_val.npy
+
+venv/
