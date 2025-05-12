@@ -40,6 +40,8 @@ python3 DEMO.py
 
 ===> If you want to dectect with high precition. Reduce infromation noise in background.
 
+Press Q to exit frame
+
 Author: Quang Minh
 
 
